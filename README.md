@@ -5,56 +5,14 @@ This project demonstrates skills in data loading, data analysis, visualization, 
 
 Project Files
 *music_playlist.csv* – Dataset containing 10–12 songs
-playlist_analyzer.py / .ipynb* – Python script or Jupyter Notebook
+*music_playlist.ipynb* – Jupyter Notebook
 *Charts* (auto-generated) – Duration chart, genre charts
 
-Features
-
-The project performs the following tasks:
-
-1. Load the dataset
-
-Reads a CSV file containing:
-
-* Song Name
-* Artist
-* Duration (seconds)
-* Genre
-* Release Year
-
-2. Calculate average song duration
-
-Uses Pandas to compute the mean duration of all songs.
-
-3. Identify the most common genre
-
-Finds the most frequently occurring genre using `mode()`.
-
-4. Visualize duration per song
-
-Creates a *bar chart* showing how long each track is.
-
-5. Visualize genre distribution
-
-Generates:
-
-*Bar chart* for genre counts
-*Pie chart* showing percentage distribution
-
-6. Provide listening insights
-
-Three observations are made based on the dataset, such as:
-
-Preferred genre
-Release year pattern
-Typical song length
-
 Technologies Used
-
-*Python*
-*Pandas*
-*Matplotlib*
-*Jupyter Notebook*
+Python
+Pandas
+Matplotlib
+Jupyter Notebook
 
 How to Run the Project
 
